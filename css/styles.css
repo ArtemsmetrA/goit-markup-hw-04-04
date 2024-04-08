@@ -97,7 +97,7 @@ img {
 
 .current {
     position:relative;
-    color:#005EB8;
+    color:#404BBF;
 }
 
 .current:after {
@@ -506,14 +506,16 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-footer:hover {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
     background-color: #31d0aa;
 }
 
 .icon-icon-footer {
     width: 24px;
     height: 24px;
-    fill:#ffffff;
+    height: 24px;
+    fill:#f0f8ff;
 }
 
 .social-title {
