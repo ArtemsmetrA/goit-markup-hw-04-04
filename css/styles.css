@@ -444,7 +444,7 @@ img {
     padding-bottom: 100px;
 }
 
-.container.icon {
+.logo-text-wrap {
     display: flex;
     align-items: baseline;
 }
@@ -520,6 +520,7 @@ img {
 
 .social-wrap {
     margin-right: 120px;
+    display: flex;
 }
 
 /*----------------------*/
